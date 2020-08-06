@@ -1,10 +1,7 @@
 {
-  "exclude": [
-    "**/bin",
-    "**/bower_components",
-    "**/jspm_packages",
-    "**/node_modules",
-    "**/obj",
-    "**/platforms"
-  ]
+  "ConnectionStrings": {
+    " ": "server=localhost; uid=root; pwd=burger; database=QuickBuyDB",
+    "SqlServerConnection": ""
+  }
+
 }
