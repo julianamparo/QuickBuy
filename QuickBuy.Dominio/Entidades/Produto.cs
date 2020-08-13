@@ -19,7 +19,6 @@ namespace QuickBuy.Dominio.Entidades
 
             if (string.IsNullOrEmpty(Nome))
                 AdicionarCritica("Nome do produto não foi informado");
-
             if (string.IsNullOrEmpty(Preco.ToString()))
                 AdicionarCritica("Preço do produto não foi informado");
 
